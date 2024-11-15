@@ -12,3 +12,10 @@ _mi_variable = "Erick"
 miVariable = "Erick"
 MIVARIABLE = "Erick"
 mivariable2 = "Erick"
+
+"""
+Variables incorrectas
+2mivariable = "Erick"
+mi-variable = "Erick"
+mi variable = "Erick"
+"""
