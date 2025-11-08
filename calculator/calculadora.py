@@ -1,3 +1,5 @@
+import math
+
 #erickgeovvani
 #Declarando y asignando variables
 1 == "suma"
@@ -63,5 +65,24 @@ match opcion:
         c = suma1 * suma2
         suma3 =str(c)
         print(a + " + " + b + " = " + suma3)
-
+    
+    case 4:
+        print("Elegiste Division")
+        print("Ingrese primera cifra")
+        a = input()
+        print("Ingrese segunda cifra")
+        b = input()
+        suma1 = int(a)
+        suma2 = int(b)
+        c = suma1 / suma2
+        suma3 =str(c)
+        print(a + " + " + b + " = " + suma3)
+    
+    case 5:
+        print("Elegiste Raiz Cuadrada")
+        print("Ingrese el numero")
+        a = input()
+        numero = int(a)
+        resultado = math.sqrt(numero)
+        print(resultado)
 #erickgeo
